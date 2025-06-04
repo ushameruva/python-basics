@@ -1,0 +1,14 @@
+#10 armstrong
+n=4595
+count=0
+temp=n
+while n:
+	n//=10
+	count+=1
+sum=0
+n=temp
+while n:
+    single=n%10
+    sum+=single**count
+    n//=10
+print("arm" if temp==sum else "not arm")
