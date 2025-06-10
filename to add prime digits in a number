@@ -1,0 +1,9 @@
+#16 to add prime digits in a number
+n=987464
+count=0
+while n:
+    rem=n%10
+    if rem in [2,3,5,7]:
+        count+=rem
+    n=n//10
+print(count)
