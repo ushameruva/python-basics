@@ -1,0 +1,6 @@
+
+a="abc"
+res=0
+for i in a:
+    res+=ord(i)-96
+print(res)
