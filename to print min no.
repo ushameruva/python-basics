@@ -1,0 +1,5 @@
+a=[1,2,1,3,0,4,5]
+search=a[0]
+for i in range(1,len(a)):
+    if search>a[i]:
+        print(a[i])
