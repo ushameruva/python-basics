@@ -1,0 +1,10 @@
+#ORD: ord converts alphabet into ascii
+#CHR: chr converts ascii into alphabet
+a="aikhofj"
+res=""
+for i in a:
+    if i in "aeiou":
+        res+=chr(ord(i)-32)
+    else:
+        res+=i
+print(res)
